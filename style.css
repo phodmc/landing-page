@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-container {
+    background-color: #1f2937;
+    padding: 1px 5em;
+}
+
+header {
+    font-family: sans-serif;
+    color: aliceblue;
+    max-width: 980px;
+    margin: 1em auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+h1 {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+a, header p {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    gap: 1em;
+    margin: 5em 0;
+}
+
+.hero-text, .hero-img {
+    flex: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.hero-img {
+    background-color: gray;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 0.5em 1em;
+    font-size: 16px;
+}
+
+/* main */
+
+.main {
+    padding: 5em 9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h3 {
+    font-size: 28px;
+}
+
+.cards {
+    max-width: 720px;
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-img {
+    height: 130px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-bottom: .7em;
+}
+
+/* quote */
+
+.quote-container {
+    background-color: #dadada;
+    padding: 5em 0;
+}
+
+.quote {
+    margin: auto;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.quote h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+/* action */
+
+.action-container {
+    padding: 0 5em;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 5em auto;
+
+    background-color: #3882f6;
+    padding: 3em 4em;
+    border-radius: .75em;
+    color: #e5e7eb;
+}
+
+.action button {
+    border: 2px solid white;
+}
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2em;
+}
