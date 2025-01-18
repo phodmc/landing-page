@@ -62,7 +62,8 @@ a {
 }
 
 .hero-image {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .hero-text, .hero-image{
@@ -92,4 +93,46 @@ a {
 }
 
 /* info section styles */
+section.info {
+    padding: 3rem 5rem;
+}
+
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.info-title h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-content {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.card {
+    width: 175px;
+}
+
+.card-image {
+    outline: 3px solid #3882f6;
+    height: 175px;
+    border-radius: 5px;
+}
+
+.card p {
+    text-align: center;
+    margin-top: .5rem;
+    font-size: 15px;
+    color: #1f2937;
+}
 
