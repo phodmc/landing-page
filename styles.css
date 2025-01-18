@@ -52,6 +52,7 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    display: inline-block;
 }
 
 .hero-content {
@@ -98,7 +99,7 @@ section.info {
 }
 
 .info-container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -115,12 +116,13 @@ section.info {
 
 .info-content {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: center;
 }
 
 .card {
     width: 175px;
+    margin-bottom: 2rem;
 }
 
 .card-image {
@@ -134,5 +136,62 @@ section.info {
     margin-top: .5rem;
     font-size: 15px;
     color: #1f2937;
+}
+
+/* quote styles */
+section.quote {
+    background-color: #e5e7eb;
+    color: #f5f5f5;
+    padding: 3rem 5rem;
+}
+
+.quote-container {
+    max-width: 900px;
+    margin: 4rem auto;
+    color: #1f2937;
+}
+
+p.text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-container p.author {
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+/* action styles */
+section.action {
+    color: #f5f5f5;
+    padding: 3rem 5rem;
+}
+
+.action-container {
+    max-width: 1200px;
+    margin: 4rem auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 3rem 9rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.action-content {
+    max-width: 500px;
+}
+
+
+.action a {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    outline: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    font-weight: 900;
 }
 
